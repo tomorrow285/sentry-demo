@@ -1,0 +1,23 @@
+{
+  "name": "sentry-sourcemap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/browser": "^7.5.1",
+    "@sentry/tracing": "^7.5.1",
+    "webpack": "^5.73.0"
+  },
+  "devDependencies": {
+    "@sentry/webpack-plugin": "^1.18.9",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
